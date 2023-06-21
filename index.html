@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo Copiapo</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+   
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#quienesomos">Quienes Somos</a>
+            <a href="#videos">Videos</a>
+            <a href="#galeriadefotos">Galeria de Fotos</a>
+            <a href="#ubicacion">Ubicacion</a>
+            <a href="#contacto">Contactanos</a>
+            <button onclick="cambiarFondo()">Cambiar fondo</button>
+            <button onclick="cambiarTamanoLetra()">Cambiar tamaño de letra</button>
+        </nav>
+    </header>
+    <div class="encabezado">
+        <h1>Turismo</h1>
+        <h2>Copiapo</h1>
+        <p>"Descubre la belleza del norte de Chile con Turismo Copiapó"</p>
+    </div>
+    
+    <hr>
+    <div class="quienesomos">
+        <h1 id="quienesomos"><u> Quienes Somos</u></h1>
+        <p>Turismo Copiapó es una empresa de turismo basada en la ciudad de Copiapó, una ciudad ubicada en el norte de Chile conocida por su historia minera y su rica cultura. La empresa se especializa en ofrecer una variedad de servicios turísticos personalizados, incluyendo visitas guiadas a los principales atractivos turísticos de la ciudad, como el Parque Nacional Pan de Azúcar, el Museo Mineralógico, y las antiguas minas de cobre abandonadas. Turismo Copiapó también ofrece excursiones en vehículos todo terreno, paseos en bicicleta, y actividades al aire libre para aquellos que buscan una experiencia más aventurera.</p>
+        <hr>
+    </div>
+
+    <hr>
+    <div class="videos">
+        <h1 id="videos"><u>Video</u></h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-_Pa8FIDEhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <hr>
+    <h1 class="galerianombre" id="galeriadefotos">Galeria de Fotos</h1>
+    <div class="galeria">
+        <div class="foto">
+            <img src="imagenes/1.jpg">
+        </div>
+        <div class="pie">
+            <p>Parque Kaukari</p>
+        </div>
+    </div>
+  
+    <div class="galeria">
+        <div class="foto">
+            <img src="imagenes/2.jpg">
+        </div>
+        <div class="pie">
+            <p>Catedral de Copiapo</p>
+        </div>
+    </div>
+  
+    <div class="galeria">
+        <div class="foto">
+            <img src="imagenes/3.jpg">
+        </div>
+        <div class="pie">
+            <p>Museo Regional de Atacama</p>
+        </div>
+    </div>
+  
+    <div class="galeria">
+        <div class="foto">
+            <img src="imagenes/4.jpg">
+        </div>
+        <div class="pie">
+            <p>Parque Schenider</p>
+        </div>
+    </div> 
+  
+    <h1 class="ubicacion"> Ubicacion</h1>
+    <hr>
+    <div class="container">
+        <iframe class="mapa" id="ubicacion" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56687.20517024229!2d-70.32100894999999!3d-27.3772668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9698040b2d316d71%3A0xf80596c0f1a40f7a!2sCopiap%C3%B3%2C%20Atacama!5e0!3m2!1ses!2scl!4v1683079031146!5m2!1ses!2scl" width="800" height="600" style="border:solid;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <hr>
+    <h1 class="h1contacto" id="contacto">Unetenos</h1>
+    <div class="container">
+        <form class="form">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="field">
+                <small id="nombreError" style="display: none; color: red;">Este campo no puede estar vacío</small>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="field">
+                <small id="emailError" style="display: none; color: red;">Este campo no puede estar vacío</small>
+            </div>
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" class="field">
+                <small id="telefonoError" style="display: none; color: red;">Este campo no puede estar vacío</small>
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" class="field"></textarea>
+                <small id="mensajeError" style="display: none; color: red;">Este campo no puede estar vacío</small>
+            </div>
+            <div>
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero" class="field">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+                <small id="generoError" style="display: none; color: red;">Este campo no puede estar vacío</small>
+            </div>
+            <div>
+                <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" class="field">
+                <small id="fechaNacimientoError" style="display: none; color: red;">Este campo no puede estar vacío</small>
+            </div>
+            <div>
+                <label for="colorFavorito">Color Favorito:</label>
+                <input type="color" id="colorFavorito" name="colorFavorito" class="field">
+                <small id="colorFavoritoError" style="display: none; color: red;">Este campo no puede estar vacío</small>
+            </div>
+            <div>
+                <label for="peso">Peso(KG):</label>
+                <input type="number" id="peso" name="peso" class="field">
+                <small id="pesoError" style="display: none; color: red;">Este campo no puede estar vacío</small>
+            </div>
+            <div>
+                <label for="terminos">Acepta los términos:</label>
+                <input type="checkbox" id="terminos" name="terminos" class="field">
+            </div>
+            <div>
+                <button type="button" id="btnAgregar">Agregar</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="contenedorTabla"></div>
+
+
+  <script src="formulario.js"></script>
+
+
+
+
+
+</body>
+</html>

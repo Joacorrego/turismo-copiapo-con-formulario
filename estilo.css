@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@500 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+
+
+    
+    
+
+header{
+    background-color: #000000;
+    text-align: center;
+    padding: 25px 0;
+    
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ff0808;
+    margin: 0 30px;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.encabezado{
+    background-image: url(imagenes/12151743515_12e621bbe8_b.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.encabezado h1{
+    font-size: 35px;
+    position: absolute;
+    top: 220px; 
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+}
+.encabezado h2{
+    font-size: 70px;
+    padding: 20px 0;
+
+}
+
+.encabezado p{
+    color: #eee;
+}
+
+.quienesomos h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    color: #730000;
+    font-family: "Rammetto One", Sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 2em;
+    letter-spacing: 1.4px;
+    text-shadow: -6px 10px 7px rgba(0, 0, 0, 0.51);
+    
+
+}
+
+.quienesomos p{
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.5em;
+    justify-content: center;
+    font-family: "Offside", Sans-serif;
+    font-size: 20px;
+    text-shadow: -6px 13px 10px rgba(255, 248, 248, 0.3);
+
+    
+}
+
+
+.videos h1{
+    text-align: center;
+    padding-top: 1px;
+    font-size: 40px;
+    color: #F0E803;
+    font-family: "Rammetto One", Sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 2em;
+    letter-spacing: 1.4px;
+    text-shadow: -6px 10px 7px rgba(0, 0, 0, 0.51);
+    
+   
+}
+
+ 
+.quienesomos{
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+ 
+      
+}
+
+.videos{
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
+ 
+
+}
+
+.galerianombre {
+    text-align: center;
+    color: #fffefe;
+    font-family: "Oregano", Sans-serif;
+    font-size: 90px;
+    text-shadow: -6px 10px 7px rgba(255, 0, 0, 0.51);
+    
+
+}
+
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 350px;
+
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+
+}
+
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+    color: #bbb0b0;
+}
+
+
+*body{
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
+ 
+
+}
+
+
+
+
+.map {
+    height: 90%;
+    width: 90%;
+    border-style: solid;
+    
+    
+}
+
+
+.ubicacion{
+    text-align: center;
+    padding-top: 50%;
+    font-size: 40px;
+    color: #730000;
+    font-family: "Rammetto One", Sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 2em;
+    letter-spacing: 1.4px;
+    text-shadow: -6px 10px 7px rgba(0, 0, 0, 0.51);
+    text-transform: uppercase;
+
+
+}
+
+.h1contactos {
+    text-align: center;
+    color: #030303;
+    font-family: "Oregano", Sans-serif;
+    font-size: 90px;
+    text-shadow: -6px 10px 7px rgba(255, 0, 0, 0.51);
+    
+}
+
+
+.h1contacto{
+    text-align: center;
+    color: #030303;
+    font-family: "Oregano", Sans-serif;
+    font-size: 90px;
+    text-shadow: -6px 10px 7px rgba(255, 0, 0, 0.51);
+  
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.field {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos CSS para el cambio de fondo y color del texto */
+body.black-theme {
+    background-color: black;
+    color: white;
+}
+
+.black-theme .form {
+    background-color: black;
+    color: white;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid white; /* Agregar bordes blancos al formulario */
+}
